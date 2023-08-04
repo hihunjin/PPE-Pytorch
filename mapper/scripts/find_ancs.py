@@ -161,7 +161,7 @@ def clean_full_ranks(cand_dicts, full_orig, exc):
 
 if __name__ == '__main__':
     from mapper.options.train_options import TrainOptions
-    opts = TrainOptions().parse()
+    opt = TrainOptions()
     opt.parser.add_argument('--cmd', type=str)
     opts = opt.parse()
     opts.batch_size = 8

@@ -23,4 +23,5 @@ h5py
 regex==2023.6.3
 ftfy==6.1.1
 gdown==4.7.1
+tensorboard==2.13.0
 git+https://github.com/openai/CLIP@4e0c6ab42b26ec6e41b1ee2abb1a8b6562752b00

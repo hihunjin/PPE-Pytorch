@@ -1,4 +1,4 @@
-from argparse import ArgumentParser
+from argparse import ArgumentParser, Namespace
 
 
 class TrainOptions:
@@ -47,6 +47,7 @@ class TrainOptions:
 		# self.parser.add_argument('--tar_dist', default=0.16259765625, type=float, help='max-min CLIP distance of command text')
 
 
-	def parse(self):
+	def parse(self) -> Namespace:
 		opts = self.parser.parse_args()
+		
 		return opts
