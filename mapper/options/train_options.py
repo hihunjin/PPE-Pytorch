@@ -44,7 +44,7 @@ class TrainOptions:
 
 		self.parser.add_argument('--description', type=str, help='Driving text command')
 		self.parser.add_argument('--anchors', type=str, help='Driving text anchor')
-		# self.parser.add_argument('--tar_dist', default=0.16259765625, type=float, help='max-min CLIP distance of command text')
+		self.parser.add_argument('--tar_dist', default=0.16259765625, type=float, help='max-min CLIP distance of command text')
 
 
 	def parse(self) -> Namespace:

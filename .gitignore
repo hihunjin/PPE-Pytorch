@@ -2,3 +2,7 @@ __pycache__
 *.pt
 pretrained
 *.pyc
+.vscode
+*.jpg
+logs.txt
+timestamp.txt
